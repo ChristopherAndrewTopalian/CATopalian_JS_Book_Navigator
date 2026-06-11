@@ -1,5 +1,5 @@
 # CATopalian JS Book Navigator
-An JavaScript app that makes studying ancient scripture very organized and easy. 
+An JavaScript app that makes studying ancient and modern books very organized and easy. 
 
 ---
 
