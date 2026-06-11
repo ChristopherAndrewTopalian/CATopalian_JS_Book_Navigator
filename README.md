@@ -7,6 +7,8 @@ An JavaScript app that makes studying ancient and modern books very organized an
 
 ![002](src/media/textures/screenshots/002.png)
 
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JS_Book_Navigator/CATopalian_JS_Book_Navigator.html
+
 ---
 
 ## **Dedicated to God the Father**
