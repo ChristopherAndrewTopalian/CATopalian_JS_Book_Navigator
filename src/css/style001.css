@@ -68,6 +68,11 @@ blockquote
     border-radius: 8px;
 }
 
+.level2
+{
+    margin-left: 30px;
+}
+
 .entry
 {
     margin: 2px;
