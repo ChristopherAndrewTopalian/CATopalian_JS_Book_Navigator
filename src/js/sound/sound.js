@@ -45,28 +45,14 @@ function playTone(frequency, duration, waveType, volume, detune, attackTime, rel
 function hoverSound()
 {
     playTone(
-        300,     // frequency
+        100,     // frequency
         100,     // duration
-        'triangle',  // waveType
-        0.01,    // volume
+        'sine',  // waveType
+        0.03,    // volume
         0,         // detune
-        0.02,    // attackTime
-        0.02,    // releaseTime
+        0.01,    // attackTime
+        0.01,    // releaseTime
         0.0      // panValue -0.5 is left
-    );
-}
-
-function hoverSound2()
-{
-    playTone(
-        300,     // frequency
-        300,     // duration
-        'triangle',  // waveType
-        0.08,    // volume
-        -200,    // detune
-        0.1,      // attackTime
-        0.1,      // releaseTime
-        0.0       // panValue -0.5 is left
     );
 }
 

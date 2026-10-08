@@ -11,7 +11,7 @@ body
 
 iframe
 {
-    width: 500px;
+    width: 600px;
 }
 
 h1
@@ -85,7 +85,7 @@ blockquote
 
 .title
 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: rgb(0, 170, 255);
     text-decoration: none;
@@ -101,7 +101,7 @@ blockquote
 
 #mainDiv
 {
-    width: 70%;
+    width: 90%;
 }
 
 button
@@ -139,6 +139,40 @@ button:active
     color: rgb(255, 0, 255);
 }
 
+/* Base styles for your text */
+details, summary {
+    color: rgb(255, 255, 255);
+}
+
+summary:hover {
+    color: rgb(0, 255, 255);
+}
+
+/* Remove default triangle */
+details > summary {
+    list-style: none; 
+    cursor: pointer;
+}
+
+/* Default icons for all nested details */
+details > summary::before {
+    content: '▶️ '; 
+}
+
+details[open] > summary::before {
+    content: '🔽 '; 
+}
+
+/* --- NEW: Top-Level Folder Icons --- */
+.top-level > summary::before {
+    content: '📁 '; /* closed folder icon */
+}
+
+.top-level[open] > summary::before {
+    content: '📂 '; /* open folder icon */
+}
+
+/*
 details
 {
     color: rgb(255, 255, 255);
@@ -156,20 +190,21 @@ summary:hover
 
 details > summary
 {
-    list-style: none; /* remove default triangle */
+    list-style: none;
     cursor: pointer;
 }
 
 details > summary::before
 {
-    content: '▶️ '; /* closed icon */
+    content: '▶️ '; 
 }
 
 details[open] > summary::before
 {
-    content: '🔽 '; /* open icon */
-    /*background-color: rgb(140,140,140);*/
+    content: '🔽 ';
+
 }
+*/
 
 /*----*/
 
