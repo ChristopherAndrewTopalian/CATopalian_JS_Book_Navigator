@@ -47,8 +47,8 @@ function hoverSound()
     playTone(
         100,     // frequency
         100,     // duration
-        'sine',  // waveType
-        0.03,    // volume
+        'triangle',  // waveType
+        0.01,    // volume
         0,         // detune
         0.01,    // attackTime
         0.01,    // releaseTime
