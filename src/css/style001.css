@@ -19,7 +19,7 @@ h1
     margin: 2px;
     padding: 2px;
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: rgb(200, 200, 255);
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
@@ -67,6 +67,8 @@ blockquote
     margin: 2px;
     padding: 4px 9px;
     border-radius: 8px;
+    font-family: georgia;
+    font-size: 17px;
 }
 
 .level2
@@ -163,6 +165,11 @@ details[open] > summary::before {
     content: '🔽 '; 
 }
 
+.top-level
+{
+    font-size: 18px;
+}
+
 /* --- NEW: Top-Level Folder Icons --- */
 .top-level > summary::before {
     content: '📁 '; /* closed folder icon */
@@ -170,6 +177,13 @@ details[open] > summary::before {
 
 .top-level[open] > summary::before {
     content: '📂 '; /* open folder icon */
+}
+
+.hr_space
+{
+    height: 20px;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0);
 }
 
 /*
